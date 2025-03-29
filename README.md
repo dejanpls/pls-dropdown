@@ -45,10 +45,10 @@ dropdown('button', 'list'); // call it where needed
 
 ## Options
 
-The `DropdownToggle` constructor accepts two arguments.
+The `dropdown` constructor accepts two arguments.
 
 ```javascript
-dropDown(toggleBtnId, contentId);
+dropdown(toggleBtnId, contentId);
 ```
 
 ## License
