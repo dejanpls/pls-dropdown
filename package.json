@@ -10,6 +10,12 @@
   ],
   "author": "dejanpls",
   "license": "ISC",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
