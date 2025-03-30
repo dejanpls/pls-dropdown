@@ -3,15 +3,15 @@ export default function dropdown(toggleId, listId) {
   const list = document.getElementById(listId);
 
   if (toggle && list) {
-    list.classList.add("hidden"); // Hide initially
+    list.classList.add('hidden'); // Hide initially
 
-    toggle.addEventListener("click", () => {
-      list.classList.toggle("hidden");
+    toggle.addEventListener('click', () => {
+      list.classList.toggle('hidden');
     });
 
-    document.addEventListener("click", (event) => {
+    document.addEventListener('click', (event) => {
       if (!toggle.contains(event.target) && !list.contains(event.target)) {
-        list.classList.add("hidden");
+        list.classList.add('hidden');
       }
     });
   }
