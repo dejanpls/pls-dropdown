@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple dropdown module.",
   "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "keywords": [
     "javascript",
@@ -18,6 +19,7 @@
   ],
   "scripts": {
     "build": "webpack --mode production",
+    "postbuild": "cp src/index.d.ts dist/index.d.ts",
     "dev": "webpack --mode development --watch",
     "prepack": "npmignore --auto",
     "lint": "eslint ./src --fix",
