@@ -11,6 +11,10 @@
   ],
   "author": "dejanpls",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dejanpls/pls-dropdown.git"
+  },
   "files": [
     "dist/",
     "README.md",
